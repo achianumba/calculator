@@ -8,7 +8,7 @@ export default [
         text: 'C'
     },
     {
-        id: 'delete',
+        id: 'del',
         text: 'DEL'
     },
     {
