@@ -102,6 +102,7 @@ export default function Calculator() {
   useEffect(() => {
     //keyboard events listener/handler
     document.onkeydown = (e) => {
+      e.preventDefault();
       const key = e.key === "*" ? "x" : e.key;
       
       if (key === "Enter" || key === "=") return evaluate();
